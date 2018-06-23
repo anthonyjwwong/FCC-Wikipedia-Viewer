@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="header">
+      <h1>Wikipedia Viewer</h1>
+  </div>
+
+  <div id="main">
+
+
+    <div class="search-container">
+
+      <form>
+        <input type="text" placeholder="Search Wikipedia..." name="search" id="search-keyword">
+        <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
+      </form>
+
+      <div class="randomArticle">
+        <button class="random">
+          <a target="_blank" href='https://en.wikipedia.org/wiki/Special:Random' class="randomArticle">Surprise Me</a>
+        </button>
+      </div>
+    </div>
+
+    <ul id="response-container">
+    </ul>
+  </div>
+
+
+  <!--links to jquery and js-->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
