@@ -1,7 +1,8 @@
 # FCC-Wikipedia-Viewer
 
-## How to use 
-Basically using Wiki API to search things up from Wiki.
+## Project
+Using Jquery AJAX method to get the necessary information from Wikipedia website.
+
 
 ## Usage
 1. Click on the link below <br>
