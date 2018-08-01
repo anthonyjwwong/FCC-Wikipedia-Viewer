@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  background: #DCDCDC;
+}
+
+header {
+  background: #111;
+  color: 	#C0C0C0;
+}
+
+.title {
+  display: flex;
+  width: 980px;
+  justify-content:space-between;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.title_search-bar {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.title_search-bar input {
+  padding: 6px 15px;
+  outline:none;
+  border-radius: 20px;
+  border: 1px solid #111;
+  font-weight: bold;
+  color: gray;
+}
+
+.title_search-bar button {
+  background: inherit;
+  border: none;
+}
+
+.title_search-bar .fa {
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 1px;
+}
+
+.title_search-bar .random {
+  padding: 6px 15px;
+  outline:none;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.title_search-bar .random a {
+  color: white;
+  text-decoration:none;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+.main {
+  padding-top: 50px;
+}
+
+ul {
+  width: 980px;
+  border: 1px solid white;
+  margin: 0 auto;
+  background: #F5F5F5;
+  margin-bottom: 5%;
+}
+
+li a {
+  color: 	#303030;
+  font-size: 25px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+ 
+li p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: 	#303030;
+}
+ 
+li {
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+  padding: 25px;
+  text-align: left;
+  list-style: none;
+  padding-top: 50px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.errorMsg {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
+  border: none;
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+
+  
+  .title {
+      text-align: center;
+      width: 100%;
+      flex-direction:column;
+  }
+  
+  .title_search-bar {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+  
+  .title_search-bar .random {
+      margin-top: 10px;
+  }
+  
+  .main {
+      padding-top: 0;
+  }
+  
+  ul {
+      width: 100%;
+      border: 1px solid white;
+      margin: 0 auto;
+      background: #F5F5F5;
+      margin-bottom: 5%;
+  }
+  
+  li a {
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      padding-left: 10px;
+  }
+     
+  li p {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left:10px;
+      padding-right: 10px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: 	#303030;
+  }
+     
+  li {
+      width: 100%;
+      padding: 20px 0;
+  }
+  
+  .displayNone {
+      display: none;
+  }
+  
+  .errorMsg {
+      font-size: 1.3rem;
+      font-weight: bolder;
+      text-align: center;
+      border: none;
+      padding-top: 25px;
+  }
+  
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+
+  
+  .title {
+      text-align: none;
+      width: 90%;
+      flex-direction:row;
+  }
+  
+  .title_search-bar {
+      display: flex;
+      width: 400px;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+  }
+  
+  .title h1 {
+      font-size: 1.3rem;
+      padding-top: 5px;
+  }
+
+  .title_search-bar .random {
+      margin-top: 0;
+  }
+  
+  .title_search-bar input {
+      font-size: 0.8rem;
+  }
+
+  .title_search-bar .random a {
+      font-size: 0.8rem;
+  }
+
+  .main {
+      padding-top: 5%;
+  }
+  
+  ul {
+      width: 90%;
+      border: 1px solid white;
+      margin: 0 auto;
+      background: #F5F5F5;
+      margin-bottom: 5%;
+  }
+  
+  li a {
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      padding-left: 10px;
+  }
+     
+  li p {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left:10px;
+      padding-right: 10px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: 	#303030;
+  }
+     
+  li {
+      width: 100%;
+      padding: 20px 10px 10px;
+  }
+  
+  .displayNone {
+      display: none;
+  }
+  
+  .errorMsg {
+      font-size: 1.3rem;
+      font-weight: bolder;
+      text-align: center;
+      border: none;
+      padding-top: 25px;
+  }
+  
+}
